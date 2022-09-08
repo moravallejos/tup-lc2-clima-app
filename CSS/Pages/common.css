@@ -9,7 +9,7 @@
 
 :root {
     /* Declaro variables CSS con colores principales */
-    --color-theme: #8a6fdb;
+    --color-theme: rgb(3, 201, 201);
     --color-active: #62f25d;
     --color-back-active: #04957d;
     --color-gradient: linear-gradient(to right, var(--color-theme),
@@ -133,4 +133,38 @@ main p {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+
+
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links:hover {
+    background-color: rgb(3, 201, 201);
+}
+
+.nav-item a:hover {
+    background-color: rgba(16, 228, 228);
+}
+
+.nav-item-login:hover {
+    background-color: rgba(33, 173, 173);
 }
