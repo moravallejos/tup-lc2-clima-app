@@ -38,8 +38,17 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    box-shadow: 0px 2px 3px 0px #5df2d6;
+    -webkit-box-shadow: 0px 2px 3px 0px #5df2d6;
+    -moz-box-shadow: 0px 2px 3px 0px #5df2d6;
+    border-color: #5df2d6;
+    background: #00594c;
+    background: linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -webkit-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -moz-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
 }
-
 nav>ul {
     display: flex;
     justify-content: space-between;
@@ -58,15 +67,18 @@ nav li a {
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
-    color: white;
+    color: #4de0ca;
+    font-family: Sans-serif;
 }
 
 nav li.current-page a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 16px 21px;
     text-decoration: none;
-    color:white;
-    background-color: #038673;
+    color: #00594c;
+    background-color: #5df2d6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main {
@@ -82,6 +94,7 @@ h1 {
     margin:
         0;
     color: white;
+    font-family: Sans-serif;
 }
 
 h1>img {
@@ -90,9 +103,10 @@ h1>img {
 }
 
 h2 {
-    color: var (--color-theme);
+    color: #00594c;
     margin: 16px 0;
     text-align: center;
+    font-family: Sans-serif;
 }
 
 h3 {
@@ -108,12 +122,20 @@ main section {
 footer {
     position: fixed;
     bottom: 0px;
-    background:#00594c;
+    background: #00594c;
     width: 100%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: #00594c;
+    background: linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -webkit-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -moz-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    box-shadow: 0px -2px 3px 0px #5df2d6;
+    -webkit-box-shadow: 0px -2px 3px 0px #5df2d6;
+    -moz-box-shadow: 0px -2px 3px 0px #5df2d6;
 }
+
 
 footer p {
     font-size: small;
@@ -134,7 +156,7 @@ main p {
     footer {
         padding-top: 20px;
         padding-bottom: 20px;
-        
+
     }
 }
 
@@ -142,20 +164,11 @@ main p {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 
 .rosario {
-     color: green;
+    color: green;
 }
 
-nav li.current-page a {
-    display: inline-block;
-    padding: 16px 21px;
-    text-decoration: none;
-    color:white;
-    background-color: #038673;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
