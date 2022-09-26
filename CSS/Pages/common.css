@@ -9,8 +9,8 @@
 
 :root {
     /* Declaro variables CSS con colores principales */
-    --color-theme: rgb(3, 201, 201);
-    --color-active: #62f25d;
+    --color-theme: #00594c;
+    --color-active: #5df2d6;
     --color-back-active: #04957d;
     --color-gradient: linear-gradient(to right, var(--color-theme),
             var(--color-back-active));
@@ -66,7 +66,7 @@ nav li.current-page a {
     padding: 10px 15px;
     text-decoration: none;
     color:white;
-    background-color: rgb(23, 218, 218);
+    background-color: #038673;
 }
 
 main {
@@ -108,7 +108,7 @@ main section {
 footer {
     position: fixed;
     bottom: 0px;
-    background:rgb(3, 201, 201);
+    background:#00594c;
     width: 100%;
     text-align: center;
     padding-top: 10px;
