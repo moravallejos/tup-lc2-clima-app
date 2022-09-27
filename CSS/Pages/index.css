@@ -169,6 +169,39 @@ main p {
 
 
 .rosario {
-    color: green;
+    color: #00594c;
+    text-align: center;
+}
+
+.Boton{
+    background-color: #00594c;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.seleccionable{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: ridge;
+}
+
+.card{
+    text-align: center;
+    border-style: ridge;
+    font-size: medium;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position:fixed;
+    bottom: 340px;
+    font-family: verdana ,Sans-serif;
+    font-weight: bold;
 }
 

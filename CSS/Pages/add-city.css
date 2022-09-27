@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
- Unicode', Geneva, Verdana, sans-serif;
+    font-family: verdana, sans-serif;
 
 }
 
@@ -158,4 +157,21 @@ nav li.current-page a {
     background-color: #038673;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.success{
+    background-color:#28a745 ;
+}
+
+.error{
+    background-color: #dc3545;
+}
+
+.warning{
+    background-color:#ffc107 ;
+}
+
+.texto{
+    text-align: center;
+    
 }
