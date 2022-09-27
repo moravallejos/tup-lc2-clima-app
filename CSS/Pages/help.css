@@ -218,3 +218,15 @@ nav li.current-page a {
     border: none;
     margin-bottom: 30px;
 }
+
+.cuadros{
+    text-align: center;
+}
+
+.error{
+    text-align: center;
+    background-color: #dc3545;
+    border-radius: 15px;
+    padding: 10px;
+    color:white;
+}
