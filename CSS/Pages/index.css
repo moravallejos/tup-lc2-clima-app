@@ -175,17 +175,11 @@ main p {
     background-color: #00594c;
     color: white;
     border: none;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
 }
 
 .seleccionable{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     border-style: ridge;
 }
 
@@ -193,10 +187,7 @@ main p {
     text-align: center;
     font-size: medium;
     margin-top: 30px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 40px;
     position:fixed;
     bottom:flex;
     font-family: verdana, Sans-serif;
