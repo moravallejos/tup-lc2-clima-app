@@ -2,9 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
- Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: verdana, sans-serif;
 }
 
 :root {
@@ -193,15 +191,18 @@ main p {
 
 .card{
     text-align: center;
-    border-style: ridge;
     font-size: medium;
+    margin-top: 30px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     position:fixed;
-    bottom: 340px;
-    font-family: verdana ,Sans-serif;
+    bottom:flex;
+    font-family: verdana, Sans-serif;
     font-weight: bold;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.75);
 }
 

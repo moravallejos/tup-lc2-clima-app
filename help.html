@@ -36,12 +36,17 @@
 
         <section id="form-city-list">
             <form action="">
-                <p><label for="Text">Nombre:</label> <input type="text"></p>
+                <p><label for="Text">Nombre:</label> 
+                    <br>
+                    <input type="text" class="text" style="width: 255px;height: 32px;"></p>
                 <p><label for="mail">Correo electrónico:</label>
-                    <input type="email" required></p>
-                <p><label for="comentario">Comentario:</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10" minlength="10"></textarea>
+                    <br>
+                    <input type="email" required class="email" style="width: 255px;height: 32px;"></p>
+                <p><label for="comentario">Mensaje:</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" minlength="10" class="mensaje" ></textarea>
                 </p>
+                
                 <input type="reset" value="Limpiar">
                 <button>Enviar</button>
             </form>

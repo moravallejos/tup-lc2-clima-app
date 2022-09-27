@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
- Unicode', Geneva, Verdana, sans-serif;
+    font-family: verdana, sans-serif;
 
 }
 
@@ -38,6 +37,16 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    box-shadow: 0px 2px 3px 0px #5df2d6;
+    -webkit-box-shadow: 0px 2px 3px 0px #5df2d6;
+    -moz-box-shadow: 0px 2px 3px 0px #5df2d6;
+    border-color: #5df2d6;
+    background: #00594c;
+    background: linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -webkit-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -moz-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
 }
 
 nav>ul {
@@ -58,7 +67,8 @@ nav li a {
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
-    color: white;
+    color: #4de0ca;
+    font-family: Sans-serif;
 }
 
 nav li.current-page a {
@@ -108,11 +118,18 @@ main section {
 footer {
     position: fixed;
     bottom: 0px;
-    background:#00594c;
+    background: #00594c;
     width: 100%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: #00594c;
+    background: linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -webkit-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    background: -moz-linear-gradient(360deg, #00594c 0%, #0e958d 80%);
+    box-shadow: 0px -2px 3px 0px #5df2d6;
+    -webkit-box-shadow: 0px -2px 3px 0px #5df2d6;
+    -moz-box-shadow: 0px -2px 3px 0px #5df2d6;
 }
 
 footer p {
@@ -154,8 +171,33 @@ nav li.current-page a {
     display: inline-block;
     padding: 16px 21px;
     text-decoration: none;
-    color:white;
-    background-color: #038673;
+    color: #00594c;
+    background-color: #5df2d6;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.text{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: ridge;
+}
+
+.email{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: ridge;
+}
+
+.comentario{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: ridge;
+}
+

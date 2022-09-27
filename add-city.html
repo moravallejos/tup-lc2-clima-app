@@ -31,22 +31,30 @@
         <section id="form-city-list">
             <form action="" class="texto">
                 <p>Ingrese la ciudad a agregar:</p>
-                <label for="text"></label>
-                <input type="text">
+                <label for="text" ></label>
+                <input type="text" class="text" style="width: 245px;height: 36px;">
                 <br>
-                <button>Agregar</button>
+                <button class="boton" >Agregar</button>
             </form>
         </section>
-        <section class="success">
-            <p class="mensaje">Ciudad agregada con éxito</p>
-        </section>
-        <section class="error">
-            <p class="mensaje">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar
-            </p>
-        </section>
-        <section class="warning">
-            <p class="mensaje">La ciudad ingresada ya se encuentra almacenada</p>
-        </section>
+        <br>
+        <table class="table">
+            <tr> 
+                <td class="success">
+                     <p class="mensaje">Ciudad agregada con éxito</p>
+                </td>
+            </tr>
+            <tr >
+                <td class="error">
+                    <p class="mensaje">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar </p>
+                </td>
+            </tr>
+            <tr >
+                <td class="warning">
+                    <p class="mensaje">La ciudad ingresada ya se encuentra almacenada</p>
+                </td>
+            </tr>
+        </table>
     </main>
     <footer>
         <p>
