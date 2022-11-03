@@ -139,6 +139,7 @@ footer p {
 
 main p {
     margin-bottom: 16px;
+    font-size: small;
 }
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
@@ -179,23 +180,22 @@ nav li.current-page a {
 
 .success{
     background-color:#28a745 ;
-    border-radius: 15px;
-    padding: 10px;
     color:white;
+    padding: 12px;
+    border-radius: 10px;
 }
-
 .error{
     background-color: #dc3545;
-    border-radius: 15px;
-    padding: 10px;
     color:white;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 .warning{
     background-color:#ffc107 ;
-    border-radius: 15px;
-    padding: 10px;
     color:white;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 .texto{
@@ -218,10 +218,3 @@ nav li.current-page a {
     border-radius: 4px;
 }
 
-.table{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 15px;
-}
