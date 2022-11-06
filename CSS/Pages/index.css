@@ -183,7 +183,8 @@ main p {
     border-style: ridge;
 }
 
-.card{
+#card{
+    display: none;
     text-align: center;
     font-size: medium;
     margin-top: 30px;

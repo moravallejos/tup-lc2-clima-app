@@ -9,7 +9,7 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="CSS\Pages\add-city.css">
     <script src="JS/add-city.js" defer></script>
-    <script src="JS/common.js"defer></script>
+    <script src="JS/common.js"type="module"></script>
 </head>
 
 <body>
@@ -32,18 +32,22 @@
         <section id="form-city-list">
             <form action="" class="texto">
                 <p>Ingrese la ciudad a agregar:</p>
-                <label for="text" ></label>
-                <input type="text" class="text" style="width: 245px;height: 36px;">
+                <label for="text"></label>
+                <input onsubmit="agregarlocalstorage()" type="text" class="text" style="width: 245px;height: 36px;" id="entrada">
                 <br>
-                <button class="boton" onclick="[getCitiesFromLocalStorage]" >Agregar</button>
+                <button type="button" class="boton" onclick="agregarlocalstorage()">Agregar</button>
             </form>
         </section>
         <br>
-        <p class="success">Ciudad agregada con éxito</p><br>
+        <div class="cartel" id="cartel">
+
+        </div>
+        <!--  <p class="success">Ciudad agregada con éxito</p><br>
         
         <p class="error">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar </p><br>
         
-        <p class="warning">La ciudad ingresada ya se encuentra almacenada</p><br>
+        <p class="warning">La ciudad ingresada ya se encuentra almacenada</p><br> -->
+
     </main>
     <footer>
         <p>

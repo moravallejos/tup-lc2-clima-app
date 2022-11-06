@@ -178,6 +178,12 @@ nav li.current-page a {
     border-top-right-radius: 10px;
 }
 
+#cartel{
+    color:white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
 .success{
     background-color:#28a745 ;
     color:white;
